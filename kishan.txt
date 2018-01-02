@@ -1,4 +1,4 @@
-Good news, AutoSSL has successfully renewed the Domain Validated (DV) certificate for ìintern.host-ed.meî. This does not require any further action by you.
+Good news, AutoSSL has successfully renewed the Domain Validated (DV) certificate for ‚Äúintern.host-ed.me‚Äù. This does not require any further action by you.
 
 
 
@@ -65,4 +65,5 @@ Contents  [hide]
 
 
 Mihir kanzariy
+Kishan Dobariya
 
