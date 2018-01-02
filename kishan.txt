@@ -62,10 +62,7 @@ Contents  [hide]
 10	External links
 
 
-<<<<<<< HEAD
 
 
 Mihir kanzariy
-=======
-Kishan Dobariya
->>>>>>> 5b5636eabb708c5febf365bda8e6f913e17efea2
+
