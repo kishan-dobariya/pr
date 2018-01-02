@@ -36,32 +36,28 @@ Contents  [hide]
 10	External links
 Node.js is an open-source, cross-platform JavaScript run-time environment for executing JavaScript code server-side. Historically, JavaScript was used primarily for client-side scripting, in which scripts written in JavaScript are embedded in a webpage's HTML, to be run client-side by a JavaScript engine in the user's web browser. Node.js enables JavaScript to be used for server-side scripting, and runs scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js has become one of the foundational elements of the "JavaScript everywhere" paradigm,[5] allowing web application development to unify around a single programming language, rather than rely on a different language for writing server side scripts.
 
-Though .js is the conventional filename extension for JavaScript code, the name "Node.js" does not refer to a particular file in this context and is merely the name of the product. Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in Web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games).[6]
-
-The Node.js distributed development project, governed by the Node.js Foundation,[7] is facilitated by the Linux Foundation's Collaborative Projects program.[8]
-
-Corporate users of Node.js software include GoDaddy,[9] Groupon,[10] IBM,[11] LinkedIn,[12][13] Microsoft,[14][15] Netflix,[16] PayPal,[17][18] Rakuten, SAP, Tuenti,[19] Voxer,[20] Walmart,[21] Yahoo!,[22] and Cisco Systems.
-
-Contents  [hide] 
-1	History
-2	Overview
-2.1	Platform architecture
-2.2	Industry support
-3	Releases
-4	Technical details
-4.1	Threading
-4.2	V8
-4.3	Package management
-4.4	Unified API
-4.5	Event loop
-5	Project governance
 6	Alternatives
 7	See also
 8	References
 9	Further reading
 10	External links
 
+oft and Joyent implemented a native Windows version of Node.js.[33] The first Node.js build supporting Windows was released in July 2011.
 
+In January 2012, Dahl stepped aside, promoting coworker and npm creator Isaac Schlueter to manage the project.[34] In January 2014, Schlueter announced that Timothy J. Fontaine would lead the project.[35]
+
+In December 2014, Fedor Indutny started io.js, a fork of Node.js. Due to the internal conflict over Joyent's governance, io.js was created as an open governance alternative with a separate technical committee.[36][37] Unlike Node.js,[38] the authors planned to keep io.js up-to-date with the latest releases of the Google V8 JavaScript engine.[39]
+
+In February 2015, the intent to form a neutral Node.js Foundation was announced. By June 2015, the Node.js and io.js communities voted to work together under the Node.js Foundation.[40]
+
+In September 2015, Node.js v0.12 and io.js v3.3 were merged back together into Node v4.0.[41] This brought V8 ES6 features into Node.js, and a long-term support release cycle.[42] As of 2016, the io.js website recommends that developers switch back to Node.js and that no further releases of io.js are planned due to the merger.[43]
+
+Overview[edit]
+Node.js allows the creation of Web servers and networking tools using JavaScript and a collection of "modules" that handle various core functionality.[28][31][44][45][46] Modules are provided for file system I/O, networking (DNS, HTTP, TCP, TLS/SSL, or UDP), binary data (buffers), cryptography functions, data streams, and other core functions.[31][45][47] Node.js's modules use an API designed to reduce the complexity of writing server applications.[31][45]
+
+Node.js applications can run on Linux, macOS, Microsoft Windows, NonStop,[48] and Unix servers. Alternatively, they can be written with CoffeeScript[49] (a JavaScript alternative), Dart or TypeScript (strongly typed forms of JavaScript), or any other language that can compile to JavaScript.[49][50]
+
+Node.js is primarily used to build network programs such as Web servers.[44] The biggest difference between Node.js and PHP is that most functions in PHP block until completion (commands execute only after previous commands have completed), while functions in Node.js are designed to be non-blocking (commands execute concurrently or even in parallel,[51][52] and use callbacks to signal completion or failure).[44]
 
 
 Mihir kanzariy
